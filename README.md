@@ -1,4 +1,4 @@
-# generalising-structural-knowledge / The Tolman-Eichenbaum Machine
+# The Tolman-Eichenbaum Machine
 
 Code to reproduce model figures from https://papers.nips.cc/paper/8068-generalisation-of-structural-knowledge-in-the-hippocampal-entorhinal-system and https://www.biorxiv.org/content/10.1101/770495v2
 
