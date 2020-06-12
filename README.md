@@ -7,3 +7,5 @@ With tensorflow 1.9.0
 python3 run_tem.py
 
 Use notebook to load and visualise cell representations and to do behavioural analyses
+
+pytorch version coming soon
