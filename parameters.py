@@ -25,14 +25,14 @@ def default_params():
     # loop_laps world options
     params['n_laps'] = 4
     params['reward_pos'] = 0  # loop_laps world - where 'reward' is
-    params['reward_value'] = params['n_states'][0]  # make same as predicting other sensory experiences
 
     params['widths'], params['n_states'], params['n_states_world'], params['n_actions'], params['jump_length'], \
         params['heights'] = get_n_states(params)
+    params['reward_value'] = params['n_states'][0]  # make same as predicting other sensory experiences
 
     # BEHAVIOUR PARAMS
 
-    params['poss_behaviours'] = ['normal', 'shiny']  # '['shiny', 'normal'] for OVC cells, ['normal'] otherwise
+    params['poss_behaviours'] = ['normal']  # '['shiny', 'normal'] for OVC cells, ['normal'] otherwise
     params['bias_type'] = 'angle'  # 'angle' or None. Bias to move in straight lines or no bias.
     params['direc_bias'] = 0.2  # strength of that bias
     params['angle_bias_change'] = 0.4  # random walk of angle rate
@@ -73,7 +73,6 @@ def default_params():
     params['n_save_data'] = int(25 * max(params['n_states']) / params['seq_len'])
     params['save_interval'] = int(int(50000 / params['seq_len']) / params['n_save_data']) * params['n_save_data']
     params['n_walk'] = params['seq_len']
-    params['n_senses'] = [params['s_size']] * params['n_freq']
     params['n_envs_test'] = np.ceil(params['n_envs'] / 2)
     params['save_model'] = 5 * params['save_interval']
 
@@ -110,6 +109,7 @@ def default_params():
     params['p_size'] = int(params['tot_phases'] * params['s_size_comp'])
     params['s_size_comp_hidden'] = 20 * params['s_size_comp']
     params['prediction_freq'] = 0 if not ('shiny' in params['poss_behaviours'] and params['ovc_module_num'] == 0) else 1
+    params['n_senses'] = [params['s_size']] * params['n_freq']
 
     params['freqs'] = [0.01, 0.7, 0.91, 0.97, 0.99, 0.9995]
     if 'shiny' in params['poss_behaviours'] and params['ovc_module_use']:
