@@ -10,9 +10,9 @@
 
   <p align="center">
     ·
-    <a href="https://github.com/djcrw/tem/issues">Report Bug</a>
+    <a href="https://github.com/djcrw/generalising-structural-knowledge/issues">Report Bug</a>
     ·
-    <a href="https://github.com/djcrw/tem/issues">Request Feature</a>
+    <a href="https://github.com/djcrw/generalising-structural-knowledge/issues">Request Feature</a>
     ·
   </p>
 
