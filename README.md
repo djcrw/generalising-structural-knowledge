@@ -22,8 +22,8 @@
 * [About the Project](#about-the-project)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
-  * [Running models](#Running models)
-  * [Pytorch version](#Pytorch version)
+  * [Running models](#Running-models)
+  * [Pytorch version](#Pytorch-version)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
