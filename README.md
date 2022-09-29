@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project contains a tensorflow 1.9.0 and a tensorflow 2.3.0 implementation of the Tolman-Eichenbaum Machine ([paper](https://www.sciencedirect.com/science/article/pii/S009286742031388X)).
+This project contains a tensorflow 1.9.0 and a tensorflow 2.3.0 implementation of the Tolman-Eichenbaum Machine ([paper](https://www.sciencedirect.com/science/article/pii/S009286742031388X)). The tensorflow 2 (tem_tf2) version is cleaner and easier to use.
 
 In the tensorflow 2 (tem_tf2) version, it has all the relevant code for the simulations in the recent Nature Neuroscience review ([paper](https://www.nature.com/articles/s41593-022-01153-y)).
 
@@ -57,7 +57,7 @@ git clone https://github.com/djcrw/generalising-structural-knowledge.git
 python3 run_tem.py
 ```
 
-Will take ~1hrs before training starts 
+If using graph_mode parameter, there will be some time before training starts as graph optimisaiton is taking place. 
 
 Use notebook to load and visualise cell representations and to do behavioural analyses
 
