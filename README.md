@@ -32,13 +32,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Tensorflow 1.9.0 code to reproduce model figures from https://papers.nips.cc/paper/8068-generalisation-of-structural-knowledge-in-the-hippocampal-entorhinal-system and https://www.biorxiv.org/content/10.1101/770495v2
+This project contains a tensorflow 1.9.0 and a tensorflow 2.3.0 implementation of the Tolman-Eichenbaum Machine ([paper](https://www.sciencedirect.com/science/article/pii/S009286742031388X)).
+
+In the tensorflow 2 (tem_tf2) version, it has all the relevant code for the simulations in the recent Nature Neuroscience review ([paper](https://www.nature.com/articles/s41593-022-01153-y)).
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You need to install [python 3](https://www.python.org/download/releases/3.0/) and [tensorflow 1.9.0](https://www.tensorflow.org/)
+You need to install [python 3](https://www.python.org/download/releases/3.0/) and [tensorflow 1.9.0](https://www.tensorflow.org/) or [tensorflow 2.3.0](https://www.tensorflow.org/)
 
 <!-- INSTALLATION -->
 ### Installation
